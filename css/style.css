@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #0F1C2F;
+}
+.wrapper{
+	width: 80%;
+	/*border: 2px solid white;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid green;*/
+	float: left;
+	
+}
+.menu{
+	width: 60%;
+	/*border: 1px solid green;*/
+	float: right;
+	
+}
+.menu ul{
+	/*padding: 0 25px;*/
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 25px;
+
+}
+.menu ul li:last-child a{
+	padding-right:0;
+}
